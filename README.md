@@ -118,7 +118,7 @@ export QT_QPA_PLATFORM_PLUGIN_PATH=$COPPELIASIM_ROOT
 
 **按照github的readme，一步步来.**
 [**https://github.com/stepjam/PyRep**](https://github.com/stepjam/PyRep)
-**下面的我是在voxposer-main路径下执行的，所以下载到了voxposer文件夹下。（应该在那个路径都可以，注意安装的时候安装到虚拟环境中。）**
+**下面的我是在voxposer-main路径下执行的，所以下载到了voxposer文件夹下。（应该在任何路径都可以，注意安装的时候安装到虚拟环境中。）**
 ```
 git clone https://github.com/stepjam/PyRep.git
 cd PyRep
