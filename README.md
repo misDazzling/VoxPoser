@@ -1,4 +1,4 @@
-[![voxposer.mp4 (17.94MB)](https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*NNs6TKOR3isAAAAAAAAAAABkARQnAQ)]()## VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models
+## VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models
 
 #### [[Project Page]](https://voxposer.github.io/) [[Paper]](https://voxposer.github.io/voxposer.pdf) [[Video]](https://www.youtube.com/watch?v=Yvn4eR05A3M)
 
