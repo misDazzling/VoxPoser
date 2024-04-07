@@ -1,0 +1,5 @@
+jupyter
+openai==0.28.0
+plotly
+transforms3d
+open3d
