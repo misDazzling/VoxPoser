@@ -47,24 +47,24 @@ pip install -r requirements.txt
 ## 代码结构
 VoxPoser的核心内容：
 
-- `**playground.ipynb**`：VoxPoser的演示代码。
-- `**LMP.py**`：语言模型程序（LMPs）的实现，用于递归生成代码以分解指令，并为每个子任务组合值映射。
-- `**interfaces.py**`：为语言模型（即LMPs）在体素空间中操作并调用运动规划器提供必要的API接口。
-- `**planners.py**`：贪婪规划器的实现，为给定值映射的实体/可移动物体规划轨迹（表示为一系列航点）。
-- `**controllers.py**`：给定实体/可移动物体的航点，控制器应用（一系列）机器人动作来达到航点。
-- `**dynamics_models.py**`：环境动力学模型，用于实体/可移动物体为对象或对象部分的情况。在`controllers.py`中用于执行MPC。
-- `**prompts/rlbench**`：VoxPoser中不同语言模型程序（LMPs）使用的提示。
+- **`playground.ipynb`**：VoxPoser的演示代码。
+- **`LMP.py`**：语言模型程序（LMPs）的实现，用于递归生成代码以分解指令，并为每个子任务组合值映射。
+- **`interfaces.py`**：为语言模型（即LMPs）在体素空间中操作并调用运动规划器提供必要的API接口。
+- **`planners.py`**：贪婪规划器的实现，为给定值映射的实体/可移动物体规划轨迹（表示为一系列航点）。
+- **`controllers.py`**：给定实体/可移动物体的航点，控制器应用（一系列）机器人动作来达到航点。
+- **`dynamics_models.py`**：环境动力学模型，用于实体/可移动物体为对象或对象部分的情况。在`controllers.py`中用于执行MPC。
+- **`prompts/rlbench`**：VoxPoser中不同语言模型程序（LMPs）使用的提示。
 
 环境和工具：
 
-- `**envs**`：
-   - `**rlbench_env.py**`：RLBench环境的包装器，用于为VoxPoser暴露有用的函数。
-   - `**task_object_names.json**`：VoxPoser暴露的对象名称及其对应的每个个体任务的场景对象名称的映射。
-- `**configs/rlbench_config.yaml**`：RLBench环境中所有相关模块的配置文件。
-- `**arguments.py**`：配置文件的参数解析器。
-- `**LLM_cache.py**`：语言模型输出的缓存，将其写入磁盘以节省成本和时间。
-- `**utils.py**`：实用函数。
-- `**visualizers.py**`：基于Plotly的值映射和规划轨迹的可视化器。
+- **`envs`**：
+   - **`rlbench_env.py`**：RLBench环境的包装器，用于为VoxPoser暴露有用的函数。
+   - **`task_object_names.json`**：VoxPoser暴露的对象名称及其对应的每个个体任务的场景对象名称的映射。
+- **`configs/rlbench_config.yaml`**：RLBench环境中所有相关模块的配置文件。
+- **`arguments.py`**：配置文件的参数解析器。
+- **`LLM_cache.py`**：语言模型输出的缓存，将其写入磁盘以节省成本和时间。
+- **`utils.py`**：实用函数。
+- **`visualizers.py`**：基于Plotly的值映射和规划轨迹的可视化器。
 
 ## 复现流程
 
