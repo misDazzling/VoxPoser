@@ -9,7 +9,7 @@ from rlbench import tasks
 
 
 # openai.api_key = ''  # set your API key here
-openai.api_key = 'sk-Z9YpcPjL0Ie6BuwmC59031640f794aA39d65DeF13f1aEc51'  # set your API key here
+openai.api_key = 'sk-***'  # set your API key here
 config = get_config('rlbench')
 # uncomment this if you'd like to change the language model (e.g., for faster speed or lower cost)
 # for lmp_name, cfg in config['lmp_config']['lmps'].items():
